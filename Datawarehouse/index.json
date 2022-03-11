@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
+  "title": "Nutzung von JSON in PostgreSQL",
   "description": "A simple scenario example.",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "5 Minuten",
   "details": {
     "steps": [
       {
