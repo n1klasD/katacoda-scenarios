@@ -1,5 +1,5 @@
 # JSON_VALUE() als Rückgabe, als Where --> handles NULL values
-# Query json normally
+# Query json normally --> einfache Werte
 SELECT title, type,
     JSON_VALUE(details, '$.ISBN') AS ISBN
 FROM literature
