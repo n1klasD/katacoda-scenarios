@@ -1,32 +1,32 @@
 [
   {
-    "title": "",
+    "title": "Data Warehouse 1",
     "publication_year": 2001,
-    "type": "",
+    "type": "Book",
     "details": {
-      "authors": ["",""],
-      "publisher": "",
-      "ISBN": "",
-      "pages": 0
+      "authors": ["Peter K.","Gerhard W."],
+      "publisher": "Springer",
+      "ISBN": "978-9-8147-5165-0",
+      "pages": 541
     }
   },
   {
-    "title": "",
-    "publication_year": 2001,
-    "type": "",
+    "title": "Deep Learning for detecting insurance fraud",
+    "publication_year": 2019,
+    "type": "Paper",
     "details": {
-      "authors": ["",""],
+      "authors": ["Tim S.","Dr. Juergen K."],
       "DOI": "10.3464.3065",
-      "institution": ""
+      "institution": "University of Stuttgart"
     }
   },
   {
-    "title": "",
-    "publication_year": 2001,
-    "type": "",
+    "title": "Lean Python.com",
+    "publication_year": 2020,
+    "type": "Website",
     "details": {
-      "lastVisited": "",
-      "link": ""
+      "lastVisited": "30-10-2021",
+      "link": "http://learnpython.com/tutorial"
     }
   }
 ]

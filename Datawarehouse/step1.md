@@ -1,6 +1,6 @@
 # Introduction to MariaDB
 
-But what is MariaDB ? 
+But what exactly is MariaDB ? 
 
 > MariaDB Server is one of the most popular open source relational databases.
 > It’s made by the original developers of MySQL and guaranteed to stay open source. 

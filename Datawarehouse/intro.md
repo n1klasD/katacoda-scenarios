@@ -10,7 +10,7 @@ finally query and parse the JSON data using SQL.
 
 ## Learning Objective
 
-- What is JSON ?
+- Understanding JSON ?
 - Create a table with a JSON column in MariaDB
 - Insert JSON data into the table
 - Read JSON data from the table
