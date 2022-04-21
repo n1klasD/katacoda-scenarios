@@ -2,35 +2,10 @@ Todo:
 - Zitat, Bezug zur Vorlesung --> JSON
 - mehr als 3 Quellen, Bücher ?
     - https://mariadb.com/de/resources/blog/using-json-in-mariadb/
-- Zielgruppe
 
-Aufbau
-- Abstract
-    - JSON SQL Standard ISO
-    - Learnziele
-    - Vorwissen
-- Introduction to MariaDB
-- What is JSON
-- Structurierte Daten/ Semistrukturierte Daten --> Schema on /read Write
-    - Für alle
-        * Autors : []
-        * Title
-        * Veröffentlichung
-        * Typ
-        * als "Details"
-    - Bsp:
-        - Books
-            - Verlag
-            - ISBN
-            - Pages
-        - Paper
-            - DOI
-            - Institution
-        - Website
-            - zuletztBesucht
-            - Link
-- Create JSON Table/Column and Insert JSON into Table
-- Query JSON
-- Ausblick
-- Literatur
+- Umbenennen der Steps
+- Installation in Background
+- Schema on read/on write + structured data explaination + ref zur Vorlesung
+- Create JSON Table/Column and Insert JSON into Table --> Ausformulieren
+- Ausblick + Literatur schreiben
 
