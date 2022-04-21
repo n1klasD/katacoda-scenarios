@@ -64,6 +64,9 @@ CREATE TABLE literature (
 );
 ```{{execute}}
 
+As we earlier discussed, we are now using the datatype `JSON` for our `details` column.
+In the next step we are going to populate our table with data. 
+
 ##  Structured and semi structured data
 
 TODO
