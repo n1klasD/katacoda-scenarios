@@ -11,7 +11,7 @@ Aufbau
     - Vorwissen
 - Introduction to MariaDB
 - What is JSON
-- Structurierte Daten/ Semistrukturierte Daten
+- Structurierte Daten/ Semistrukturierte Daten --> Schema on /read Write
     - Für alle
         * Autors : []
         * Title
