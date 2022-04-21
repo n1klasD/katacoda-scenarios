@@ -1,31 +1,28 @@
-# New Scenario Template (Your Title Here)
+# Using JSON inside of MariaDB
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+This Katacoda demonstrates how you can use JavaScript Object Notation (JSON) in relational databases using MariaDB as an
+example. Furthermore, the difference between structured and semi structured data is explained and how JSON can be used
+in this context to add additional flexibility to our database system.
 
-## Description
-
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+First you are given a brief introduction to relational databases, MariaDB and JSON. After that, your knowledge about
+structured and semi structured data will be applied. We will create a table with a JSON column, insert JSON data and 
+finally query and parse the JSON data using SQL.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- What is JSON ?
+- Create a table with a JSON column in MariaDB
+- Insert JSON data into the table
+- Read JSON data from the table
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
+This course is meant for beginners, who have prior experience with programming, relational databases and 
+SQL (Structured Query Languages). Though the basics of relational databases will be refreshed.
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
+## Disclaimer
 
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+This Katacoda scenario was created for the exam of the class "Data Warehouse" at the Baden-Wuerttemberg Cooperative State University.
+The course was held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer).
 
 

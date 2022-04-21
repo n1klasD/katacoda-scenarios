@@ -1,33 +1,32 @@
 [
   {
-    "author": "",
     "title": "",
     "publication_year": 2001,
     "type": "",
     "details": {
+      "authors": ["",""],
       "publisher": "",
       "ISBN": "",
       "pages": 0
     }
   },
   {
-    "author": "",
     "title": "",
     "publication_year": 2001,
     "type": "",
     "details": {
+      "authors": ["",""],
       "DOI": "10.3464.3065",
       "institution": ""
     }
   },
   {
-    "author": "",
     "title": "",
     "publication_year": 2001,
     "type": "",
     "details": {
-      "DOI": "10.3464.3065",
-      "institution": ""
+      "lastVisited": "",
+      "link": ""
     }
   }
 ]
