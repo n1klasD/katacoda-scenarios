@@ -17,12 +17,12 @@ We can test this, by not filtering for _type_ of _Book_, the other literature ty
 
 ```mariadb
 SELECT title, type,
-    JSON_VALUE(details, '$.DOI') AS DOI
+    JSON_VALUE(details, '$.ISBN') AS ISBN
 FROM literature;
 ```{{execute}}
 
 As you can see, `JSON_VALUE` handles this for us by returning `NULL` for the rows that do not have
-the _DOI_ key in their JSON column.
+the ISBN key in their JSON column.
 `JSON_VALUE` can also be used inside the `WHERE`-clause. We can filter f.e.
 only for entries, that have a DOI key in their JSON document.
 
@@ -59,7 +59,7 @@ To check, if the entry was updated, execute the code below:
 
 ```mariadb
 SELECT * FROM literature WHERE type="Paper";
-```
+```{{execute}}
 
 One use case might be, to convert structured data in a table to JSON. With the function `JSON_OBJECT`
 we can specifiy the column names and their key name and it will create a JSON object with the respective values for us.

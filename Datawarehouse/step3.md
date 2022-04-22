@@ -3,7 +3,9 @@
 
 Now imagine we would like to design a database table *literature* that can save 
 information about sources in our research. This should include books, papers and websites.
-The columns of our table include an _id_, a _title_, a _publication year_ and a _type_. 
+The columns of our table include an _id_ (Integer), a _title_ (String), a _publication year_ (Integer) and a _type_ (String). 
+This type is either _Book_, _Paper_ or _Website_. 
+
 
 | *source_id (PK)* | *title*                          | *publication_year* | *type*   |
 |------------------|----------------------------------|--------------------|----------|
