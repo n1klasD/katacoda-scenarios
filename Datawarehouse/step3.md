@@ -51,7 +51,16 @@ And for a *website* it could look like this:
 }
 ```
 
-To create our table, run the following command: 
+While you were reading, I already installed MariaDB in the background. To start the 
+MariaDB shell and create a new table, execute the following command: 
+
+```
+sudo mariadb
+CREATE DATABASE Test;
+USE Test;
+```{{execute}}
+
+Now to create our table, run the following command: 
 
 ```mariadb
 CREATE TABLE literature (
