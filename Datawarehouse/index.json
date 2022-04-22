@@ -24,8 +24,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh",
-      "background": "background.sh"
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"
