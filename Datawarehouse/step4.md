@@ -15,7 +15,7 @@ INSERT INTO literature (title, publication_year, type, details) VALUES
         "pages": 541
     }'
 );
-```{{execute}}#
+```{{execute}}
 
 Then you can insert the paper: 
 
