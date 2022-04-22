@@ -46,4 +46,4 @@ To check if everything worked out, let´s make a query to all values in our *lit
 
 ```mariadb
 SELECT * FROM literature;
-```
+```{{execute}}
