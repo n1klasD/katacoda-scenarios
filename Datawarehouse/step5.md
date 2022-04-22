@@ -1,3 +1,5 @@
+# Query and manipulate JSON with SQL
+
 Now I will introduce you to some functions in MariaDB, that are used to interact with JSON directly in 
 the database. With the function `JSON_VALUE`, we can return the value for a path of keys in a JSON document.
 We can try this, by selecting the ISBN key inside the details column.
@@ -87,4 +89,4 @@ WHERE id = 2;
 ```{{execute}}
 
 The mentioned functions for querying, storing and manipulating JSON data are part of the ISO SQL standard. 
-Therefore, these are not specific for MariaDB [[1]](https://www.iso.org/standard/67367.html)
+Therefore, these are not specific for MariaDB [[4]](https://www.iso.org/standard/67367.html)

@@ -1,5 +1,5 @@
 
-# Creating our Table
+## Creating our Table
 
 Now imagine we would like to design a database table *literature* that can save 
 information about sources in our research. This should include books, papers and websites.
@@ -78,7 +78,14 @@ In the next step we are going to populate our table with data.
 
 ##  Structured and semi structured data
 
-TODO
+Our table now combines structured data and semi structured data. The structured data is saved in the columns _title_, 
+_publication year_ and _type_ of our table. It´s schema is definied when creating the table, you would call this behaviour
+"schema-on-write", because the database schema is applied when writing data. 
+This ensures, that wrong data can not be stored and the structure of the data is always known. The JSON document we include
+in the _details_ column is an example of semi-structured data. The structure of a JSON document can be abitrary and is
+definied within the JSON data itself. This provides great flexibility when writing data, because any structure is accepted.
+On the other hand, it is much harder to ensure data quality. You would call this behaviour "schema-on-read", because the
+schema is only applied while reading data. [3]
 
 
 
