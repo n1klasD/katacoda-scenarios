@@ -22,7 +22,7 @@ contain optional values. One way to approach this, is to add a column for every 
 A better approach would be to add a JSON column _details_ where we specify our own structure and only include the 
 attributes that we need. This adds way more flexibility to our system.
 
-For a *book* this JSON document could look like this:
+For a *book*, this JSON document could look like this:
 
 ```json
 {
@@ -42,7 +42,7 @@ For a *paper* it could look like this:
   "institution": "University of Stuttgart"
 }
 ```
-And for a *website* it could look like this: 
+And for a *website*, it could look like this: 
 
 ```json
 {
