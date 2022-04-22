@@ -1,7 +1,7 @@
 # Insert JSON into table
 
 Now we will insert three rows into our *literature* table, a book, a paper and a website.
-This is done using the standard insert syntax
+This is done using the standard insert syntax. This contains our custom JSON document.
 
 First we have to insert the book:
 
