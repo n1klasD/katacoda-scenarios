@@ -1,7 +1,7 @@
 # Insert JSON into table
 
 Now we will insert three rows into our *literature* table, a book, a paper and a website.
-This is done using the standard insert syntax. This contains our custom JSON document.
+This is done using the standard insert syntax. Each insert statement contains our custom JSON document.
 
 First we have to insert the book:
 
@@ -47,3 +47,5 @@ To check if everything worked out, let´s make a query to all values in our *lit
 ```mariadb
 SELECT * FROM literature;
 ```{{execute}}
+
+You should now see, that the table contains three rows. In the next step, we are going to query our table.
